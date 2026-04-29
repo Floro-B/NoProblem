@@ -617,6 +617,10 @@ body.home-page .site-footer {
 
   .site-header {
     left: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
   }
 
   .site-logo {
@@ -624,7 +628,7 @@ body.home-page .site-footer {
   }
 
   .home-subtitle {
-    top: calc(8px + 3.2rem);
+    top: calc(8px + 2.1rem);
     left: auto;
     right: 9px;
     width: auto;
@@ -632,6 +636,17 @@ body.home-page .site-footer {
     font-size: clamp(0.85rem, 1.8vw, 1.1rem);
     text-align: right;
     transform: none;
+  }
+
+  /* Stack menu under logo and make menu button smaller on mobile */
+  .menu-wrap {
+    margin: 0;
+    width: auto;
+  }
+
+  .menu-button {
+    padding: 8px 10px;
+    font-size: 0.95rem;
   }
 
   .home-article-preview {
