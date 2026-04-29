@@ -615,6 +615,11 @@ body.home-page .site-footer {
     font-size: clamp(1.45rem, 7vw, 2.2rem);
   }
 
+  .home-subtitle {
+    top: calc(8px + 2.8rem);
+    font-size: clamp(0.85rem, 1.8vw, 1.1rem);
+  }
+
   .home-article-preview {
     width: calc(100% - 18px);
   }
