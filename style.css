@@ -615,11 +615,23 @@ body.home-page .site-footer {
     font-size: clamp(1.45rem, 7vw, 2.2rem);
   }
 
+  .site-header {
+    left: 4px;
+  }
+
+  .site-logo {
+    width: 80px;
+  }
+
   .home-subtitle {
     top: calc(8px + 3.2rem);
-    width: calc(100% - 18px);
+    left: auto;
+    right: 9px;
+    width: auto;
+    max-width: calc(100% - 100px);
     font-size: clamp(0.85rem, 1.8vw, 1.1rem);
-    text-align: center;
+    text-align: right;
+    transform: none;
   }
 
   .home-article-preview {
